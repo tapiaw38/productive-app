@@ -5,7 +5,7 @@ from .base import env
 
 # Base
 SECRET_KEY = env('DJANGO_SECRET_KEY')
-ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['ec2-3-138-137-126.us-east-2.compute.amazonaws.com'])
+ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['productiveapp.tk'])
 
 # Databases
 DATABASES['default'] = env.db('DATABASE_URL')  # NOQA
