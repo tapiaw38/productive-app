@@ -24,9 +24,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-productive/user/__pycache__
-productive/producer/__pycache__
-productive/media
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
