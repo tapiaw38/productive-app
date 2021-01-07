@@ -14,7 +14,7 @@ from .views import producer as polls_views
 
 router = DefaultRouter()
 router.register(r'producers', polls_views.PollsterViewSet, basename='producers')
-router.register('productive/data', polls_views.ProductiveDataViewSet, basename='productive_data')
+router.register(r'producers/data', polls_views.ProductiveDataViewSet, basename='producers_data')
 
 
 urlpatterns = [
