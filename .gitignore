@@ -25,9 +25,7 @@ wheels/
 .installed.cfg
 *.egg
 productive/user/__pycache__
-productive/user/migrations
 productive/producer/__pycache__
-productive/producer/migrations
 productive/media
 
 # PyInstaller
